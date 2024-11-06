@@ -1,0 +1,9 @@
+function retval = squid ()
+
+ [oceanHeight,oceanWidth] = drawOcean("");
+
+ playerX = round(oceanWidth/2);
+ playerY = round(oceanHeight/2);
+
+
+endfunction
